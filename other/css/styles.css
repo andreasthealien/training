@@ -1,0 +1,52 @@
+body {
+    background-color: #A5C9CA;
+    margin: 0px;
+}
+
+#navbar {
+    background-color: rgb(41, 41, 41);
+    min-width: 100vw;
+    height: 3.75rem;
+}
+
+#top-text-logo {
+    margin: 0px;
+    color: aliceblue;
+    font-family: sans-serif;
+    position: relative;
+    bottom: 0px;
+    left: 8px;
+    width: 600px;
+    font-size: 3rem;
+}
+
+#nav-1 {
+    right: 1rem;
+    top: 0.78rem;
+}
+
+#nav-2 {
+    right: 10rem;
+    top: 0.78rem;
+}
+#nav-3 {
+    right: 26.15rem;
+    top: 0.78rem;
+}
+
+.nav-sites:hover {
+    color: grey;
+    border-color: grey;
+}
+
+.nav-sites {
+    text-decoration: none;
+    border: whitesmoke;
+    border-radius: 10%;
+    border-width: 2.5px;
+    border-style: solid;
+    padding: 4px;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+}
