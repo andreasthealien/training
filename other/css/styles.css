@@ -1,17 +1,22 @@
+
+
+/**  Colors: #ff8533(light orange)  #ff5e00(orange)  #b84900(dark orange)  #121212(light black)  #2e2e2e(light light black)  #0a0a0a(almost full black)  #000000(full black)  **/
+
+
 body {
-    background-color: #A5C9CA;
+    background-color: #2e2e2e;
     margin: 0px;
 }
 
 #navbar {
-    background-color: rgb(41, 41, 41);
+    background-color: #121212;
     min-width: 100vw;
     height: 3.75rem;
 }
 
 #top-text-logo {
     margin: 0px;
-    color: aliceblue;
+    color: #ff5e00;
     font-family: sans-serif;
     position: relative;
     bottom: 0px;
@@ -34,6 +39,34 @@ body {
     top: 0.78rem;
 }
 
+#top-info {
+    min-height: 33vh;
+    position: relative;
+    background-color: #2e2e2e;
+    background-image: linear-gradient(to bottom right, rgba(0, 0, 36, 0.3), rgba(49, 19, 0, 0.3));
+}
+
+#reason-1 {
+    position: absolute;
+    right: 85%;
+    top: 10%;
+}
+
+#reason-1-answer {
+    position: absolute;
+    top: 25%;
+    right: 82.25%;
+    border-style: solid;
+    border-color: rgb(235, 235, 235);
+    color: rgb(235, 235, 235);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-size: 1.3rem;
+}
+
 .nav-sites:hover {
     color: grey;
     border-color: grey;
@@ -41,12 +74,12 @@ body {
 
 .nav-sites {
     text-decoration: none;
-    border: whitesmoke;
+    border: #ffbc95;
     border-radius: 10%;
     border-width: 2.5px;
     border-style: solid;
     padding: 4px;
-    color: white;
+    color: rgb(255, 239, 220);
     font-size: 20px;
     position: absolute;
 }
